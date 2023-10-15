@@ -1,0 +1,203 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #dcdcdc;
+}
+
+span {
+	font-weight: bold;
+}
+
+.box {
+	width: 1460px;
+	margin: 30px auto;
+	padding: 40px;
+	background: #fff;
+	box-sizing: border-box;
+    font-size: 16px;
+}
+
+.box ul {
+	margin-left: 10px;
+	padding: 0;
+	border-left: 5px solid black;
+}
+
+.box ul li {
+	list-style: none;
+}
+
+.box ul li .item {
+	position: relative;
+	padding-left: 30px;
+    margin: 0 10px 30px 0;
+}
+
+.box ul li .item:before {
+	content: '';
+	position: absolute;
+	left: -12px;
+	width: 20px;
+	height: 20px;
+	background: #dcdcdc;
+	border-radius: 50%;
+    border: 6px solid #021434;
+}
+
+.date {
+    padding: 8px 15px;
+	background: #007faf;
+	border-radius: 15px;
+	color: #fff;
+    font-family: 'Fredoka One', cursive;
+}
+
+.content {
+	margin: 20px 0 10px 0;
+}
+
+.content td {
+	font-weight: bold;
+	padding: 0 0 0 10px;
+}
+
+.summary {
+	margin: 0 0 50px 0;
+}
+
+.summary td, .summary th {
+	padding: 0;
+}
+
+.summary th {
+	padding: 2px 0;
+}
+
+.summary .pass {
+	background-color: green;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.summary .fail {
+	background-color: red;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.borders > tr > th, .borders > tr > td {
+	border: 1px solid #000;
+}
+
+table {
+    margin: 5px 0;
+}
+
+table .passed {
+    color: green;
+    font-weight: bold;
+}
+
+table .failed {
+    color: red;
+    font-weight: bold;
+}
+
+.icon {
+	float:right;
+}
+
+.status {
+	float:right;
+	margin-right: 5px;
+	min-width: 100px;
+}
+
+.fa-circle-check, .fa-circle-xmark, .fa-circle-exclamation {
+	margin-right: 10px;
+}
+
+.fa-circle-check, .pass {
+	color: green;
+	font-weight: 600;
+}
+
+.fa-circle-xmark, .fail {
+	color: red;
+	font-weight: 600;
+}
+
+.fa-circle-exclamation, .not_test {
+	color: #FCA130;
+	font-weight: 600;
+}
+
+.method {
+	border-radius: 3px;
+    color: #fff;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 80px;
+    display: inline-block;
+	margin-right: 10px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.get {
+	background-color: #EBF3FB;
+	border: 1px solid #61affe;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.get .method {
+	background: #61affe;
+}
+
+.post {
+	background-color: #E8F6F0;
+	border: 1px solid #49CC90;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.post .method {
+	background: #49CC90;
+}
+
+.put {
+	background-color: #FBF1E6;
+	border: 1px solid #FCA130;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.put .method {
+	background: #FCA130;
+}
+
+.patch {
+	background-color: #FBF1E6;
+	border: 1px solid #50E3C2;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.patch .method {
+	background: #50E3C2;
+}
+
+.delete {
+	background-color: #FAE7E7;
+	border: 1px solid #F93E3E;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.delete .method {
+	background: #F93E3E;
+}
